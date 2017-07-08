@@ -5,18 +5,24 @@ package com.adonohoe.tourguide;
  */
 
 public class Location {
+    // private variables
     private String mLocationName;
     private String mLocationAddress;
+    private String mLocationPhoneNumber;
 
-    public Location(String locationName, String locationAddress) {
+    // Constructor
+    public Location(String locationName, String locationAddress, String locationPhoneNumber) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
+        mLocationPhoneNumber = locationPhoneNumber;
     }
 
+    // Gets location name
     public String getLocationName() {
         return mLocationName;
     }
 
+    // Gets location address
     public String getLocationAddress() {
         return mLocationAddress;
     }

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Tour Guide</string>
+    <string name="title">Welcome to Milford, Ohio!</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="parks">Parks</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="shopping">Shopping</string>
 </resources>
