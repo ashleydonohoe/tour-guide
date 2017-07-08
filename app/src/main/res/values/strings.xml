@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tour Guide</string>
+    <string name="app_name">Milford Tour Guide</string>
     <string name="title">Welcome to Milford, Ohio!</string>
     <string name="restaurants">Restaurants</string>
     <string name="parks">Parks</string>
