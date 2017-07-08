@@ -6,23 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.adonohoe.tourguide.MainActivity"
-    android:background="@color/colorPrimary">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textAlignment="center"
-        android:textSize="26sp"
-        android:padding="30dp"
-        android:background="@color/colorAccent"
-        android:textColor="@android:color/white"/>
-
-    <LinearLayout
-        android:layout_marginTop="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+    android:padding="10dp"
+    android:background="@color/colorPrimaryDark">
 
         <TextView
             android:background="@color/blue500"
@@ -43,6 +28,4 @@
             android:background="@color/green500"
             style="@style/home_tile_style"
             android:text="@string/parks"/>
-    </LinearLayout>
-
 </LinearLayout>
