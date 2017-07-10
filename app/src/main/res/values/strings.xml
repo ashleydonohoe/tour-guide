@@ -5,4 +5,20 @@
     <string name="parks">Parks</string>
     <string name="entertainment">Entertainment</string>
     <string name="shopping">Shopping</string>
+    <string name="finley_name">New Finley Ray Park</string>
+    <string name="finley_address">900 Finley Ray Dr</string>
+    <string name="finley_phone">(513) 831–9931</string>
+    <string name="finley_desc">A large park with fields for playing sports</string>
+    <string name="carriage_way_name">Carriage Way Park</string>
+    <string name="carriage_way_address">651 Riverside Dr</string>
+    <string name="carriage_way_phone"> (513) 248–5090</string>
+    <string name="carriage_way_desc">A small park with fishing and picnic area</string>
+    <string name="nature_center_name">Cincinnati Nature Center</string>
+    <string name="nature_center_address">4949 Tealtown Rd</string>
+    <string name="nature_center_phone">(513) 831–1711</string>
+    <string name="nature_center_desc">Large paid park with many trails</string>
+    <string name="miami_meadows_name">Miami Meadows Park</string>
+    <string name="miami_meadows_address">1546 Ohio 131</string>
+    <string name="miami_meadows_phone">(513) 248–3727</string>
+    <string name="miami_meadows_desc">Huge park with fishing lake, playground, trails, and sports fields</string>
 </resources>

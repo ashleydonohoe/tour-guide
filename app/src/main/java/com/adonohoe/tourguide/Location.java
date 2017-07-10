@@ -2,16 +2,16 @@ package com.adonohoe.tourguide;
 
 public class Location {
     // private variables
-    private String mLocationName;
-    private String mLocationAddress;
-    private String mLocationDescription;
-    private String mLocationPhoneNumber;
+    private int mLocationName;
+    private int mLocationAddress;
+    private int mLocationDescription;
+    private int mLocationPhoneNumber;
     // used technique of checking if location has an image taken from Miwok app
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
 
     // Constructor without image
-    public Location(String locationName, String locationAddress, String locationDescription, String locationPhoneNumber) {
+    public Location(int locationName, int locationAddress, int locationPhoneNumber, int locationDescription) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
         mLocationDescription = locationDescription;
@@ -19,7 +19,7 @@ public class Location {
     }
 
     // Constructor with image
-    public Location(String locationName, String locationAddress, String locationDescription, String locationPhoneNumber, int imgResourceId) {
+    public Location(int locationName, int locationAddress, int locationPhoneNumber, int locationDescription, int imgResourceId) {
         mLocationName = locationName;
         mLocationAddress = locationAddress;
         mLocationDescription = locationDescription;
@@ -28,27 +28,27 @@ public class Location {
     }
 
     // Gets location name
-    public String getLocationName() {
+    public int getLocationName() {
         return mLocationName;
     }
 
     // Gets location address
-    public String getLocationAddress() {
+    public int getLocationAddress() {
         return mLocationAddress;
     }
 
     // Get location phone number
-    public String getLocationPhoneNumber() {
+    public int getLocationPhoneNumber() {
         return mLocationPhoneNumber;
     }
 
     // Get location description
-    public String getLocationDescription() {
+    public int getLocationDescription() {
         return mLocationDescription;
     }
 
     // Get image resource; adapted from Miwok app
-    public int getmImageResourceId() {
+    public int getImageResourceId() {
         return mImageResourceId;
     }
 
