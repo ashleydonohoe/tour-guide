@@ -10,21 +10,25 @@
     android:background="@color/colorPrimaryDark">
 
         <TextView
+            android:id="@+id/restaurants"
             android:background="@color/blue500"
             android:text="@string/restaurants"
             style="@style/home_tile_style" />
 
         <TextView
+            android:id="@+id/entertainment"
             android:background="@color/orange500"
             style="@style/home_tile_style"
             android:text="@string/entertainment"/>
 
         <TextView
+            android:id="@+id/shopping"
             android:background="@color/red500"
             style="@style/home_tile_style"
             android:text="@string/shopping"/>
 
         <TextView
+            android:id="@+id/parks"
             android:background="@color/green500"
             style="@style/home_tile_style"
             android:text="@string/parks"/>
