@@ -16,9 +16,21 @@
     <string name="nature_center_name">Cincinnati Nature Center</string>
     <string name="nature_center_address">4949 Tealtown Rd</string>
     <string name="nature_center_phone">(513) 831–1711</string>
-    <string name="nature_center_desc">Large paid park with many trails</string>
+    <string name="nature_center_desc">Paid park with hiking trails</string>
     <string name="miami_meadows_name">Miami Meadows Park</string>
     <string name="miami_meadows_address">1546 Ohio 131</string>
     <string name="miami_meadows_phone">(513) 248–3727</string>
     <string name="miami_meadows_desc">Huge park with fishing lake, playground, trails, and sports fields</string>
+    <string name="scene75_name">Scene75 Entertainment Center</string>
+    <string name="scene75_address">876 OH-28</string>
+    <string name="scene_75_phone">(513) 965–4050</string>
+    <string name="scene_75_desc">Arcade with bowling, golf, and go karts</string>
+    <string name="cinema_name">Rave Motion Pictures</string>
+    <string name="cinema_address">500 Rivers Edge Dr</string>
+    <string name="cinema_phone">(513) 576–9126</string>
+    <string name="cinema_desc">Large first-run cinema</string>
+    <string name="library_name">Milford-Miami Township Library</string>
+    <string name="library_address">1099 OH-131</string>
+    <string name="library_phone">(513) 248–0700</string>
+    <string name="library_desc">Local library with events</string>
 </resources>
