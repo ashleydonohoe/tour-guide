@@ -23,29 +23,17 @@
 
         <TextView
             android:id="@+id/location_name_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:textColor="@android:color/white"
-            android:layout_marginBottom="8dp"/>
+            style="@style/LargeTextStyle" />
 
         <TextView
             android:id="@+id/location_phone_number_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
             android:textStyle="italic"
-            android:textColor="@android:color/white"
-            android:layout_marginBottom="8dp" />
+            style="@style/SmallTextStyle" />
 
 
         <TextView
             android:id="@+id/location_address_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="@android:color/white"
-            android:layout_marginBottom="8dp" />
+            style="@style/SmallTextStyle"  />
 
         <TextView
             android:id="@+id/location_description_text_view"
