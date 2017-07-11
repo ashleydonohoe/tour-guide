@@ -10,7 +10,6 @@
         android:id="@+id/location_image_view"
         android:layout_width="88dp"
         android:layout_height="88dp"
-        android:src="@drawable/placeholder"
         android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"/>
 
