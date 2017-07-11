@@ -10,11 +10,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by ashleydonohoe on 7/9/17.
- */
-
+// Code adapted from Miwok app
 public class LocationAdapter extends ArrayAdapter<Location> {
+
     private static final String LOG_TAG = LocationAdapter.class.getSimpleName();
 
     // custom constructor
@@ -32,7 +30,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
 
         }
 
-        // get the Location object located at this position in the list
+        // Get the Location object located at this position in the list
         Location currentLocation = getItem(position);
 
         // Get ImageView and set the image if there is one for that Location
